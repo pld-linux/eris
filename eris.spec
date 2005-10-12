@@ -56,7 +56,6 @@ Statyczna biblioteka kliencka WorldForge.
 %setup -q
 
 %build
-CXXFLAGS="%{rpmcflags}"
 %configure \
 	--enable-static
 %{__make}
