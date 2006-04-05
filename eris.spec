@@ -12,7 +12,7 @@ BuildRequires:	Atlas-C++-devel >= 0.5.98
 BuildRequires:	skstream-devel >= 0.3.5
 BuildRequires:	wfmath-devel >= 0.3.2
 BuildRequires:	libsigc++-devel
-#Requires:	Atlas-C++ >= 0.5.98
+Requires:	Atlas-C++ >= 0.5.98
 Obsoletes:	eris-poll-glib
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
