@@ -1,5 +1,5 @@
 Summary:	A WorldForge client library
-Summary(pl.UTF-8):   Biblioteka kliencka WorldForge
+Summary(pl.UTF-8):	Biblioteka kliencka WorldForge
 Name:		eris
 Version:	1.3.8
 Release:	0.1
@@ -28,7 +28,7 @@ dostarczenie wspólnego systemu do obslugi zadań backendu.
 
 %package devel
 Summary:	Header files for WorldForge client library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki klienckiej WorldForge
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki klienckiej WorldForge
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	Atlas-C++-devel
@@ -43,7 +43,7 @@ Pliki nagłówkowe biblioteki klienckiej WorldForge.
 
 %package static
 Summary:	Static WorldForge client library
-Summary(pl.UTF-8):   Statyczna biblioteka kliencka WorldForge
+Summary(pl.UTF-8):	Statyczna biblioteka kliencka WorldForge
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
