@@ -1,5 +1,5 @@
 Summary:	A WorldForge client library
-Summary(pl):	Biblioteka kliencka WorldForge
+Summary(pl.UTF-8):   Biblioteka kliencka WorldForge
 Name:		eris
 Version:	1.3.8
 Release:	0.1
@@ -21,14 +21,14 @@ Eris is designed to simplify client development (and avoid repeating
 the same work several times), by providing a common system to deal
 with the back end tasks.
 
-%description -l pl
-Eris zosta³a zaprojektowana w celu uproszczenia zarz±dzania klientem
-(i unikniêcia powtarzania tej samej pracy wielokrotnie) poprzez
-dostarczenie wspólnego systemu do obslugi zadañ backendu.
+%description -l pl.UTF-8
+Eris zostaÅ‚a zaprojektowana w celu uproszczenia zarzÄ…dzania klientem
+(i unikniÄ™cia powtarzania tej samej pracy wielokrotnie) poprzez
+dostarczenie wspÃ³lnego systemu do obslugi zadaÅ„ backendu.
 
 %package devel
 Summary:	Header files for WorldForge client library
-Summary(pl):	Pliki nag³ówkowe biblioteki klienckiej WorldForge
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki klienckiej WorldForge
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	Atlas-C++-devel
@@ -38,19 +38,19 @@ Requires:	wfmath-devel
 %description devel
 Header files for WorldForge client library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki klienckiej WorldForge.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki klienckiej WorldForge.
 
 %package static
 Summary:	Static WorldForge client library
-Summary(pl):	Statyczna biblioteka kliencka WorldForge
+Summary(pl.UTF-8):   Statyczna biblioteka kliencka WorldForge
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static WorldForge client library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka kliencka WorldForge.
 
 %prep
